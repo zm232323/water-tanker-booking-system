@@ -2,213 +2,152 @@
 
 # 🚰 Water Tanker Booking System
 
-### Premium Full-Stack MERN Water Tanker Booking Platform
+### Premium MERN Stack Water Delivery Platform
 
-A modern water tanker booking platform built with the MERN Stack featuring real-time tracking, role-based dashboards, JWT authentication, and a premium responsive UI.
+<p>
+A modern SaaS-inspired water tanker booking platform with
+real-time tracking, role-based dashboards, secure authentication,
+and an elegant user experience.
+</p>
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
-![Socket.io](https://img.shields.io/badge/Socket.io-Real--Time-010101?style=for-the-badge&logo=socketdotio)
-![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+<p>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio"/>
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+</p>
 
 </div>
 
 ---
 
-# 📖 Overview
+## ✨ Overview
 
-The **Water Tanker Booking System** is a complete MERN Stack application designed for water supply businesses. Customers can book water tankers online, drivers can manage deliveries, and administrators can monitor bookings, fleet operations, and analytics from a dedicated dashboard.
+A premium full-stack booking platform built for water supply businesses.
 
----
-
-# ✨ Features
-
-## 👤 Customer
-
-- User Registration & Login
-- JWT Authentication
-- Book Water Tankers
-- Booking History
-- Live Order Tracking
-- Responsive Dashboard
-
-## 🚚 Driver
-
-- Driver Dashboard
-- Assigned Orders
-- Update Booking Status
-- GPS Route Simulation
-- Real-Time Location Sharing
-
-## 👨‍💼 Admin
-
-- Admin Dashboard
-- Fleet Management
-- Driver Management
-- Booking Management
-- Analytics Dashboard
-- Assign Drivers & Tankers
+Customers can book water tankers online, drivers manage deliveries with live tracking, and administrators monitor the complete business through an analytics dashboard.
 
 ---
 
-# 🚀 Tech Stack
+# ✨ Highlights
 
-## Frontend
+```text
+🚰 Online Water Tanker Booking
+📍 Live Driver Tracking
+🔐 Secure JWT Authentication
+👤 Customer Dashboard
+🚚 Driver Dashboard
+👨‍💼 Admin Dashboard
+📊 Analytics & Charts
+⚡ Socket.io Real-Time Updates
+📱 Fully Responsive UI
+✨ Glassmorphism Design
+```
 
-- React.js
-- Vite
-- Tailwind CSS
-- Framer Motion
-- React Router
-- Axios
-- Recharts
-- Socket.io Client
+---
 
-## Backend
+# 🛠 Tech Stack
 
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-- JWT Authentication
-- Socket.io
-- bcryptjs
-- REST API
+| Frontend | Backend | Database |
+|----------|----------|----------|
+| React + Vite | Node.js | MongoDB Atlas |
+| Tailwind CSS | Express.js | Mongoose |
+| Framer Motion | JWT | Socket.io |
 
 ---
 
 # 📂 Project Structure
 
-```
-water-tanker-booking-system
+```bash
+Water-Tanker-Booking-System
 │
 ├── Backend
-│   ├── src
-│   ├── routes
-│   ├── controllers
-│   ├── models
-│   ├── middleware
-│   ├── sockets
-│   └── config
+│   ├── Controllers
+│   ├── Models
+│   ├── Routes
+│   ├── Middleware
+│   ├── Socket
+│   └── Config
 │
-├── Frontend
-│   ├── src
-│   ├── components
-│   ├── pages
-│   ├── context
-│   ├── services
-│   └── assets
+└── Frontend
+    ├── Components
+    ├── Pages
+    ├── Context
+    ├── Services
+    └── Assets
 ```
 
 ---
 
-# 🔐 Authentication
+# 🚀 Core Features
 
-- JWT Authentication
-- Protected Routes
-- Role-Based Access Control
-- Secure Password Hashing
-- Persistent Login
+### 👤 Customer
 
----
+- Secure Registration & Login
+- Book Water Tankers
+- Booking History
+- Live Order Tracking
 
-# 📡 Real-Time Features
+### 🚚 Driver
 
-- Socket.io Integration
-- Live Driver Tracking
-- Real-Time Booking Status
+- Active Deliveries
 - GPS Route Simulation
-- Instant Updates
+- Status Updates
+- Real-Time Location Sharing
+
+### 👨‍💼 Admin
+
+- Fleet Management
+- Booking Management
+- Driver Assignment
+- Analytics Dashboard
 
 ---
 
-# 🎨 UI Highlights
-
-- Glassmorphism Design
-- Premium SaaS Layout
-- Fully Responsive
-- Smooth Animations
-- Modern Dashboard
-- Interactive Charts
-
----
-
-# ⚡ Installation
-
-## Clone Repository
+# ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/water-tanker-booking-system.git
-```
+# Clone
+git clone https://github.com/zm232323/water-tanker-booking-system.git
 
-## Backend
-
-```bash
+# Backend
 cd Backend
 npm install
 npm run dev
-```
 
-## Frontend
-
-```bash
-cd Frontend
+# Frontend
+cd ../Frontend
 npm install
 npm run dev
 ```
 
 ---
 
-# 🔧 Environment Variables
-
-Create a `.env` file inside the Backend folder.
+# 🔑 Environment Variables
 
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
+JWT_SECRET=your_secret
 JWT_EXPIRES_IN=7d
 ```
 
 ---
 
-# 📸 Screenshots
+# 📸 Preview
 
-Add screenshots here after deployment.
+> Coming Soon...
 
-- Landing Page
-- Login
-- Customer Dashboard
-- Driver Dashboard
-- Admin Dashboard
-- Live Tracking
-
----
-
-# 🌟 Future Improvements
-
-- Online Payment Integration
-- Push Notifications
-- Email Notifications
-- Real GPS Tracking
-- Customer Reviews
-- Invoice Generation
-- Mobile App
-
----
-
-# 👨‍💻 Author
-
-**Zaid Malik**
-
-GitHub: https://github.com/zm232323
+Landing Page • Customer Dashboard • Driver Dashboard • Admin Dashboard
 
 ---
 
 <div align="center">
 
-⭐ If you like this project, don't forget to star the repository!
+### Built with ❤️ using the MERN Stack
+
+⭐ Star the repository if you found it useful.
 
 </div>
